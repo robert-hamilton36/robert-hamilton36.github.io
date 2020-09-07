@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Inline, Inline-block</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../Styles/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="grid-container">
+            <header class="grid-item item-2">
+                <div class='header-text-container'>
+                    <h1>Robbie Hamilton</h1>    
+                </div>
+    
+            </header>
+            <nav class="grid-item item-3"> 
+                <h1><a href="../index.html">Home</a></h1>
+                <h2><a href="blog-main.html">Blog</a></h2>
+            </nav>
+            <article class="grid-item item-1">
+               <h1 class="blog-header"> 'Inline' and 'inline-block values', for the CSS3 property, 'display: ;'</h1>
+               <p>
+                Basically, every single website you visit is made up of lots of different boxes, and you are able to control the shape, size and how the boxes interact with the other boxes on the webpage, by changing different properties on the boxes. Sort of like being able to change people’s heights, hair colour and social skills. One property available in CSS is, display.
+               </p>
+               <p>
+                The display property changes how the boxes in a website interact with other boxes around it. Two different values for display are, ‘Inline’ and ‘inline-block’. The major difference between them is that inline-block will push other boxes, away from it so that it doesn’t overlap with any other boxes, while with inline, the box will overlap with other elements around it.
+               </p>
+
+               <figure>  
+                <img src="../Images/Inline sized.png" alt="display:inline; example" class="center"> 
+                <figcaption id='inline'>Example of 'display:inline;' on the word Libero, highlighted in blue. Note the background colour seeping into the second line</figcaption>
+             </figure>
+            
+             <figure>
+                <img src="../Images/Inline-block sized.png" alt="display:inline-block; example" class="center"> 
+                <figcaption>Example of 'display:inline-block;' on the word Libero, highlighted in blue. Note the extra space between line 1 and 2</figcaption>
+             </figure>
+            
+             <div class='inline'>
+               <p class='inline-p'>
+                Imagine you are drawing a scorecard for a game of cards; you’ve written down the player names and now want to drawn the vertical lines that makes up the columns so that they are evenly spread out 5cm apart from each other. Unfortunately you have big handwriting and you’ve written Jo$eph down so that it takes up more than 5cm of space, If you were to draw the scorecard around the names with the ‘display: inline;’ property, you would draw all the columns in at 5cms and you would draw the line right through Jo$eph
+               </p>
+               <img src='../Images/Score inline.png' alt='Scorecard inline example' class="score">  
+             </div>
+            
+               
+             <div class='inline'>
+               <p class='inline-p'>
+                If you were to draw in a scorecard around the names with the display: inline-block; property you would draw most of the columns at 5cm widths but when it comes round to drawing the line between Jo$eph and Oliver you allow for the extra big handwriting and draw the column bigger than 5cms</p>
+                <img src='../Images/Score inline-block.png' alt='Scorecard inline-block example' class="score">
+            </div>
+              
+   
+            </article>
+        </div> 
+    </body>
+</html>
