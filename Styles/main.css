@@ -181,4 +181,9 @@ figcaption {
     margin-bottom: 5vh;
 }
 
-
+h2 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin: 5vh 20vh 1vh 20vh;
+    text-align: left;
+    font-size: 2vh;
+}
