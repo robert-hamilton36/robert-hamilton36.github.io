@@ -203,3 +203,23 @@ li {
     font-size: 2vh;
 
 }
+
+.image-forloops {
+    height: auto;
+    max-width: 365px;
+}
+
+.image-flowloops {
+    height: auto;
+    max-width: 573px;
+}
+
+.image-arrays {
+    height: auto;
+    max-width: 554px;
+}
+
+.image-objects {
+    height: auto;
+    max-width: 573px;
+}

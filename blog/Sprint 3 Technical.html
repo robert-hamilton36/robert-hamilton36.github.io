@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../Styles/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="grid-container">
+            <header class="grid-item item-2">
+                <div class='header-text-container'>
+                    <h1>Robbie Hamilton</h1>    
+                </div>
+    
+            </header>
+            <nav class="grid-item item-3"> 
+                <h1><a href="../index.html">Home</a></h1>
+                <h2><a href="blog-main.html">Blog</a></h2>
+            </nav>
+            <article class="grid-item item-1">
+                <h1 class = "blog-header"> HTML vs CSS</h1>
+                <p>You could imagine the difference between HTML and CSS like a song. HTML are like the lyrics, the content, written down in a single line on a piece of paper, by themselves they have no melody no cadence no rhythm. With a little bit of knowledge and skill you’ll be able to break the lyrics down into paragraphs so that the lyrics reads like it was a poem. If you then stylise your song with CSS the lyrics now have a rhythm and a melody, with backing vocals, alongside instrumentation playing chords and rhythm. I’m not meaning to disparage poems here.</p>
+               
+                <h1 class="blog-header">Control flow and Loops</h1>
+                <p>Control flow regulates how a programs code is executed. It makes sure that everything is executed in the right logical order so that the program completes its task properly. Control flow usually is made up of a bunch of conditional statements. </p>
+                <p>Loops are conditional statements where a set of instructions are run continuously in a loop until a condition is met. Take an example of the loop involved in walking somewhere. You need to walk to the supermarket, there is a condition that needs to be met; your being at the supermarket. First you have a check on the condition, look around, are you at a supermarket? If not; here are the instructions to follow;</p>
+                <p>Face the direction of a supermarket, then walk left foot forwards, then walk right foot forwards.<br>Once those instructions are followed check the condition, are you at the supermarket? If not repeat the instructions. When the condition is met, when it’s true, the loop stops. </p>
+
+                <img src="../Images/While loop.png" alt="While loop" class="center image-forloops">
+
+                <p> Control flow controls the code at level above a loop, it will control multiple different loops and conditional statements to reach a more complex goal. Say you need to buy chocolate from the supermarket, you could start with the walking to the supermarket loop, but its no good if you get to the supermarket and then run your, do I have my wallet loop. The control flow is often made up of a main while loop; while(I don’t have chocolate); with other loops running inside that main chocolate loop.</p>
+
+                <img src="../Images/Control Flow Loop.png" alt="Control flow" class="center image-flowloops">
+
+                <h1 class="blog-header"> Arrays vs Objects</h1>
+                <p>Arrays and objects are two different ways of storing data. Data can be numbers (256), strings (words or sentences), Boolean values (Either True, or false) or even arrays and objects.</p>
+                <p> Arrays are ordered lists of data, say you wanted to store your shopping list:<br> <img src="../Images/array list.png" alt="Array" class="center image-arrays"> <br> You can store as many single food items in the list as you need. When it comes time to reading your shopping list you need to ask for each item based on its position in the list. JavaScript starts counting at zero, so the zeroth item in the shopping list (shopping list[0]) would be chocolate, cat food would be shopping list[3].</p>
+                <p>Objects in JavaScript work a bit differently, you can think of it as an unordered list, but instead of having single values of data in the list, each entry consists of a key: value pair. That is a value, like how much of something you want, 10, that is associated to a key-word, say chocolate like above. The key maps the value or data to its name.</p>
+
+                <img src="../Images/Object list.png" alt="Array" class="center image-objects">
+
+                <p>If you wanted to have a personal shopping list and a shopping list for your grandma you could store both of them in one object. To read items out of your object it is similar to how we did it in arrays, but instead of asking for the position you ask for the key. shoppingLists[Chocolate] = 10. 
+                    If we wanted to get something off of Grandmas list we would need to call shoppingLists[Grandmas][0] = Tea, with the last index the number on the array like before
+                </p>
+                <p>Compared to arrays this can be useful because you can ask for specific things based on its key word, as opposed to blindly asking for something in the nth position.</p>
+
+                <h1 class="blog-header"> The Dom</h1>
+                <p>The DOM, short for Document Object Model is a way your web browser represents the webpage it is showing, it builds or interprets the DOM based off of the HTML and CSS source code. It essentially breaks of all the parts of the webpage into data and objects representations and then builds a tree based off of how they interact with each other. </p>
+                <img src="../Images/js-dom-html-dom.jpg" alt="Dom-tree" class="center">
+                <p>By representing all the parts of a webpage as objects it is possible to use JavaScript to manipulate or interact with those objects. You can add JavaScript to your website so it’s included inside the DOM when it's created, or you can you a built in function on your web browser called DevTools, which give you an overview and interactive display of the DOM, and also allows you to enter in JavaScript commands to manipulate the DOM</p>
+
+                <h1 class="blog-header"> Functions</h1>
+                <p>Functions can be useful because they contain a bunch of instructions and condense them down into one name, if you ever have to write out the same repeating set of code over and over again you can set that code to a function and then call the function every time you need it. Its similar to a recipe instead of writing out every step individually in the recipe, you can condense it down into the command; make cookies, and then every time you want it to make cookies, instead of writing out the instructions again, just write the function makeCookies</p>
+
+
+            </article>
+        </div> 
+    </body>
+</html>
