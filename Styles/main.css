@@ -188,6 +188,7 @@ h2 {
     font-size: 2vh;
 }
 
+
 .blog-list {
     font-family:'Arial Narrow Bold', sans-serif;
     margin: 5vh 20vh 1vh 20vh;
@@ -222,4 +223,12 @@ li {
 .image-objects {
     height: auto;
     max-width: 573px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin: 1vh 20vh 1vh 20vh;
+    text-align: left;
+    font-size: 2vh;
 }
